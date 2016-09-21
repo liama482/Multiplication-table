@@ -27,7 +27,8 @@ ht = int(input("Height of multiplication table"))
 
 for h in range(1,ht+1):
     for k in range(1,wth+1):
-        print(h*k)
+        print(h*k, end=' ')
+    print(' ')
 
 """"
 print("The number is: {0:>3}".format(1))         # Prints "The number is:   1"
