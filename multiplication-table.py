@@ -1,7 +1,7 @@
 """
 multiplication-table.py
 Author: Liam
-Credit: Matt
+Credit: Matt, http://stackoverflow.com/questions/12032214/python-3-print-new-output-on-same-line
 Assignment:
 
 Write and submit a Python program that prints a multiplication table. The user 
