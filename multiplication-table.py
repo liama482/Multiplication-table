@@ -22,16 +22,12 @@ Height of multiplication table: 8
   8  16  24  32  40  48  56  64  72  80
 """
 
-wth = int(input("Width of multiplication table"))
-ht = int(input("Height of multiplication table"))
+wth = int(input("Width of multiplication table "))
+ht = int(input("Height of multiplication table "))
 
 for h in range(1,ht+1):
     for k in range(1,wth+1):
-        print(h*k, end=' ')
+        #print(h*k, end=' ')
+        print("{0:>3}".format(h*k), end=' ')         # Prints "The number is:   1"
     print(' ')
 
-""""
-print("The number is: {0:>3}".format(1))         # Prints "The number is:   1"
-print("The number is: {0:>3}".format(12))        # Prints "The number is:  12"
-print("The number is: {0:>3}".format(123))       # Prints "The number is: 123"
-"""
